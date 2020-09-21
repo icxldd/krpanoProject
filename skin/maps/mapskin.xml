@@ -29,14 +29,33 @@
 
        	<!-- 地图点图像部分 url可以设置 用style来统一处理 所有layer都载入了一个名为mapspot的style，注意这里spot是由0开始，而不是由1开始的，因此在一般情况下，地图点与场景一一对应，而场景的index是从0开始的，所以我们可以利用这一点提高代码的可读性 -->
 	
-		<layer name="spot0" style="mapspot" x="474" y="314" zorder="1" onclick="mapspot_loadscene1();" />
-		<layer name="spot1" style="mapspot" x="372" y="250" zorder="1" onclick="mapspot_loadscene1();" />
-		<layer name="spot2" style="mapspot" x="732" y="315" zorder="1" onclick="mapspot_loadscene1();" />  
+		<layer name="spot16" style="mapspot" x="1174" y="184" zorder="1" onclick="mapspot_loadscene1();" />
+
+		<layer name="spot17" style="mapspot" x="900" y="220" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot18" style="mapspot" x="870" y="320" zorder="1" onclick="mapspot_loadscene1();" />  
+		<layer name="spot19" style="mapspot" x="870" y="120" zorder="1" onclick="mapspot_loadscene1();" />
+
+		<layer name="spot20" style="mapspot" x="760" y="305" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot21" style="mapspot" x="690" y="214" zorder="1" onclick="mapspot_loadscene1();" />  
+		<layer name="spot22" style="mapspot" x="730" y="120" zorder="1" onclick="mapspot_loadscene1();" />
+		
+		<layer name="spot24" style="mapspot" x="580" y="120" zorder="1" onclick="mapspot_loadscene1();" /> 
+		<layer name="spot23" style="mapspot" x="580" y="190" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot26" style="mapspot" x="580" y="260" zorder="1" onclick="mapspot_loadscene1();" />
 
 
+		<layer name="spot25" style="mapspot" x="650" y="110" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot27" style="mapspot" x="640" y="290" zorder="1" onclick="mapspot_loadscene1();" />  
 
-        <layer name="spot4" style="mapspot2" x="1032" y="100" zorder="1" onclick="mapspot_add_page();" />  
-        <layer name="spot5" style="mapspot3" x="1032" y="315" zorder="1" onclick="mapspot_sub_page();" />  
+
+		<layer name="spot28" style="mapspot" x="474" y="314" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot29" style="mapspot" x="372" y="250" zorder="1" onclick="mapspot_loadscene1();" />
+		<layer name="spot30" style="mapspot" x="732" y="315" zorder="1" onclick="mapspot_loadscene1();" />  
+		<layer name="spot31" style="mapspot" x="732" y="315" zorder="1" onclick="mapspot_loadscene1();" />  
+
+
+        <layer name="spot4444" style="mapspot2" x="1032" y="100" zorder="1" onclick="mapspot_add_page();" />  
+        <layer name="spot5555" style="mapspot3" x="1032" y="315" zorder="1" onclick="mapspot_sub_page();" />  
 	</layer>
 
 
